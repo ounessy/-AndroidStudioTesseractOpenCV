@@ -1,0 +1,3 @@
+rootProject.name='bkocr'
+include ':app', ':tesseract4android'
+include ':openCVLibrary343'

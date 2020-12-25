@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E1E1E1"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/logo"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="captureImage"
+            android:text="Scanner votre CIN"
+            android:background="@drawable/button_design"
+
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:onClick="DisplayImage"
+            android:text="Extraire les informations"
+            android:background="@drawable/button_design"
+
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
