@@ -1,1 +1,1 @@
-# -AndroidStudioTesseractOpenCV
+# AndroidStudioTesseractOpenCV
